@@ -4,7 +4,7 @@ const express = require('express');
 
 // 상수
 const PORT = 3000;
-const HOST = '127.0.0.1';
+const HOST = '35.200.100.42';
 
 // 앱
 const app = express();
