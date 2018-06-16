@@ -26,7 +26,6 @@ build:
   stage: build
   script:
     - yarn install
-    - yarn run start
   artifacts:
     expire_in: 1 week
     paths:
