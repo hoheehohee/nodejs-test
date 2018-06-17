@@ -1,16 +1,14 @@
-'use strict';
+var express = require('express');
+var uuid = require('uuid');
 
-const express = require('express');
+var app = express();
+var id = uuid.v4();
+var port = 3000;
 
-// 상수
-const PORT = 3000;
-const HOST = '0.0.0.0';
-
-// 앱
-const app = express();
-app.get('/', (req, res) => {
-    res.send('Hello world\n');
+app.get('/', function (req, res) {
+    res.send(id)
 });
 
-app.listen(PORT, HOST);
-console.log(`Running on http://${HOST}:${PORT}`);
+app.listen(port, function () {
+    console.log('Example app listening on port: ' + port);
+});
