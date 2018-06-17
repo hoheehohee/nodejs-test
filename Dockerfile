@@ -4,4 +4,4 @@ RUN  cd /src; npm install
 COPY . /src
 EXPOSE 3000
 WORKDIR /src
-CMD [ "npm", "start" ]
+CMD node server.js
