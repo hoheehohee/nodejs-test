@@ -21,15 +21,15 @@ stages:
   - dockernize
   - deployToServer
 
-build:
-  image: node:9
-  stage: build
-  script:
-    - yarn install
-  artifacts:
-    expire_in: 1 week
-    paths:
-      - build
+# build:
+#   image: node:9
+#   stage: build
+#   script:
+#     - yarn install
+#   artifacts:
+#     expire_in: 1 week
+#     paths:
+#       - build
 
 dockernize:
   stage: dockernize
