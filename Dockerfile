@@ -1,6 +1,9 @@
-FROM nginx
-COPY nginx/conf.d /etc/nginx/conf.d
-COPY nginx/nginx.conf /etc/nginx/nginx.conf
+# FROM nginx
+# COPY nginx/conf.d /etc/nginx/conf.d
+# COPY nginx/nginx.conf /etc/nginx/nginx.conf
+FROM node:9
+COPY package.json /src/package.json  
+RUN  cd /src; npm install 
 COPY . /src
 EXPOSE 3000
-CMD [ "yarn", "start" ]
+CMD [ "npm", "start" ]
