@@ -5,7 +5,7 @@ var app = express();
 var id = uuid.v4();
 var port = 3000;
 
-app.get('/', function (req, res) {
+app.get('/node', function (req, res) {
     res.send(id)
 });
 
