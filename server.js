@@ -1,14 +1,16 @@
-var express = require('express');
-var uuid = require('uuid');
+const express = require('express');
+const uuid = require('uuid');
+const path = require('path');
+const routes = require('./routes/router');
+const app = express();
+const id = uuid.v4();
+const port = 3002;
 
-var app = express();
-var id = uuid.v4();
-var port = 3000;
+app.set('dbconnecter', path.join(__dirname, 'dbconnecter'));
+// app.use(express.static(path.join(__dirname, 'dbconnecter')));
+app.use('/', routes);
 
-app.get('/', function (req, res) {
-    res.send(id)
-});
-
-app.listen(port, function () {
-    console.log('Example app listening on port: ' + port);
+app.listen(port, (error) => {
+  if(error) console.log('##### error: ', error)
+  console.log('Example app listening on port: ' + port);
 });
