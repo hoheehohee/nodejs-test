@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "author": "",
   "description": "",
@@ -12,7 +12,9 @@
     "async": "^2.6.1",
     "express": "^4.16.3",
     "mysql": "^2.15.0",
+    "node-hid": "^0.7.3",
     "nodemon": "^1.18.2",
+    "serialport": "^6.2.2",
     "uuid": "^3.2.1"
   }
 }
