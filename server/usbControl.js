@@ -4,8 +4,9 @@ let symbolDevices = []
 
 devices.forEach((device) => {
   if (device.vendorId === parseInt('0x05e0', 16)) {
+    console.log('##### device: ', device)
     try {
-      const hid = new HID.HID(device.vendorId, device.productId);
+      const hid = HID.HID(device.vendorId, device.productId);
       console.log('##### hid: ', hid)
       symbolDevices.push(hid);
       console.log('##### hid: ', hid)
@@ -16,3 +17,4 @@ devices.forEach((device) => {
 })
 
 console.log('##### symbolDevices: ', symbolDevices)
+
