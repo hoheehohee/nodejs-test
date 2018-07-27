@@ -3,18 +3,22 @@ const devices = HID.devices();
 let symbolDevices = []
 
 devices.forEach((device) => {
+    // console.log('##### device: ', device)
   if (device.vendorId === parseInt('0x05e0', 16)) {
-    console.log('##### device: ', device)
     try {
-      const hid = HID.HID(device.vendorId, device.productId);
-      console.log('##### hid: ', hid)
+      const hid = new HID.HID(device.vendorId, device.productId);
       symbolDevices.push(hid);
-      console.log('##### hid: ', hid)
     } catch (error) {
-      console.log('##### error: ', error)
     }
   };
 })
+symbolDevices[0].on("data", (data) => {
+  console.log('##### data1: ', data);
+});
+symbolDevices[0].read(((err, data) => {
+  console.log('##### data2: ', data);
+  console.log('##### err: ', err)
+}));
 
-console.log('##### symbolDevices: ', symbolDevices)
+console.log('##### symbolDevices: ', symbolDevices);
 
