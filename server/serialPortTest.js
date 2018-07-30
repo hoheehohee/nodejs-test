@@ -1,5 +1,5 @@
 const SerialPort = require('serialport');
-const port = new SerialPort('/dev/tty-usbserial1');
+const port = new SerialPort('/dev/cu.SLAB_USBtoUART');
 
 port.on('open', () => {
   console.log('##### : Prot Opened');

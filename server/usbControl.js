@@ -13,10 +13,10 @@ devices.forEach((device) => {
   };
 })
 symbolDevices[0].on("data", (data) => {
-  console.log('##### data1: ', data);
+  console.log('##### data1: ', data.toString());
 });
 symbolDevices[0].read(((err, data) => {
-  console.log('##### data2: ', data);
+  console.log('##### data2: ', data.toString());
   console.log('##### err: ', err)
 }));
 
