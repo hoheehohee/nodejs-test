@@ -10,7 +10,7 @@ exports.userSel = (req, res, next) => {
     try {
       async.waterfall([
         (callback) => {
-          const query = "select uid, signId, name, comname, division, orgCode from User where comid='B068366F-5EB8-1C7E-E79C-D438C8E32F9D'";
+          const query = "select * from User where comid='B068366F-5EB8-1C7E-E79C-D438C8E32F9D'";
           conn.query(query, (err, rows, fields) => {
             if (err) console.log('##### user sel error: ', err);
             else callback(err, rows);
