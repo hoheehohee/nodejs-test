@@ -2,6 +2,7 @@ const express = require('express');
 const uuid = require('uuid');
 const path = require('path');
 const routes = require('./routes/router');
+const slackBots = require('./services/SlackBots');
 const app = express();
 const id = uuid.v4();
 const port = 3002;
