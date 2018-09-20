@@ -7,13 +7,16 @@ exports.send = (event) => {
 
   const authEmail = 'postmaster@sikdae.com'; // 보내는 사람
   const authPass = '28350410e1b5c8f7ebb447f162f6ff46';
-  const formEmail = 'noreply@sikdae.com';
-  const vandysEmail = 'biz@vendys.co.kr';
+  // const formEmail = 'noreply@sikdae.com';
+  // const vandysEmail = 'biz@vendys.co.kr';
   const toEmail = event.email;    // 받는 사람
   const company = event.company;  // 기업명/ 상호먕
   const name = event.name;        // 문의한 사람
   const phone = event.phone;      // 문의한 사람 전화번호
   const type = event.type;         // 이메일 발송 type(문의: 'inquire', 사례집 요청: 'request')
+
+  const formEmail = 'yongho@vendys.co.kr';
+  const vandysEmail = 'yongho@vendys.co.kr'
 
 
   let transporter = nodemailer.createTransport({

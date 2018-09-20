@@ -6,7 +6,7 @@ const router = express.Router();
 
 router.route('/user')
   .get(user.userSel)
-  .post(user.userMod);
+  .post(user.userSel);
 
 router.route('/store')
   .get(store.storeSel)
