@@ -5,10 +5,8 @@ exports.send = (event) => {
 
   if (!event) return;
 
-  const authEmail = 'postmaster@sikdae.com'; // 보내는 사람
-  const authPass = '28350410e1b5c8f7ebb447f162f6ff46';
-  // const formEmail = 'noreply@sikdae.com';
-  // const vandysEmail = 'biz@vendys.co.kr';
+  const authEmail = null; // 보내는 사람
+  const authPass = null;
   const toEmail = event.email;    // 받는 사람
   const company = event.company;  // 기업명/ 상호먕
   const name = event.name;        // 문의한 사람
