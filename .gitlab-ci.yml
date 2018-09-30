@@ -33,6 +33,9 @@ deployToServer:
   - apk add --no-cache curl jq python py-pip openssh
   - mkdir -p ~/.ssh
   - echo -e "$DEPLOY_KEY" > ~/.ssh/id_rsa
+  - cd ~/.ssh
+  - ls
+  - cat id_rsa
   - chmod 600 ~/.ssh/id_rsa
   - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n"'
   - echo $sshInfo
@@ -40,4 +43,3 @@ deployToServer:
   - ssh -o StrictHostKeyChecking=no $sshInfo 'docker pull '$DOKCER_IMAGE_URL
   - ssh -o StrictHostKeyChecking=no $sshInfo 'docker-compose up -d'
   - ssh -o StrictHostKeyChecking=no $sshInfo 'docker images --quiet --filter=dangling=true | xargs --no-run-if-empty docker rmi'
-  
