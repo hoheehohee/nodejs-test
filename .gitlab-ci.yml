@@ -2,7 +2,7 @@ image: docker:latest
 
 variables:
   SERVICE_NAME: NodeJSTest
-  DOKCER_IMAGE_URL: registry.gitlab.com/www.hohee/NodeJSTest
+  DOKCER_IMAGE_URL: registry.gitlab.com/www.hohee/nodejstest
 
 services:
   - docker:dind
@@ -24,6 +24,7 @@ dockernize:
   stage: dockernize
   script:
   - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN registry.gitlab.com
+  - echo $CI_JOB_TOKEN
   - docker build -t $DOKCER_IMAGE_URL .
   - docker push $DOKCER_IMAGE_URL
 
