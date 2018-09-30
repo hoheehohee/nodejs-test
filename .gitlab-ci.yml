@@ -2,7 +2,7 @@ image: docker:latest
 
 variables:
   SERVICE_NAME: NodeJSTest
-  DOKCER_IMAGE_URL: registry.gitlab.com/www.hohee/nodejstest
+  DOKCER_IMAGE_URL: registry.gitlab.com/www.hohee/NodeJSTest
 
 services:
   - docker:dind
