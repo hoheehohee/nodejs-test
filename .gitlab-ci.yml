@@ -23,7 +23,7 @@ stages:
 dockernize:
   stage: dockernize
   script:
-  - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN registry.gitlab.com
+  - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN registry.gitlab.com
   - docker build -t $DOKCER_IMAGE_URL .
   - docker push $DOKCER_IMAGE_URL
 
