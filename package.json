@@ -17,7 +17,6 @@
     "express": "^4.16.3",
     "method-override": "^3.0.0",
     "mysql": "^2.15.0",
-    "node-hid": "^0.7.3",
     "nodemailer": "^4.6.8",
     "nodemon": "^1.18.2",
     "serialport": "^6.2.2",
