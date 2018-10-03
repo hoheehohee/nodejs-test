@@ -1,4 +1,7 @@
 FROM node:9
+ENV DATABASE_NAME $DATABASE_NAME
+ENV DATABASE_PASSWORD $DATABASE_PASSWORD
+ENV DATABASE_HOST $DATABASE_HOST
 COPY package.json /src/package.json 
 RUN  cd /src; npm install 
 COPY . /src
