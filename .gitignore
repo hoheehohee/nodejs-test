@@ -1,4 +1,5 @@
 *.DS_Store
 .metadata
 node_modules
+lib/db.js
 build

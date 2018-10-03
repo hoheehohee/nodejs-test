@@ -1,5 +1,5 @@
 const async = require('async');
-const pool = require('../dbconnecter');
+const pool = require('../lib/db');
 const email = require('../services/emailsend');
 
 exports.send = (req, res, next) => {

@@ -1,5 +1,5 @@
 const async = require('async');
-const pool = require('../dbconnecter');
+const pool = require('../lib/db');
 const slack = require('../services/SlackBots');
 
 exports.storeSel = (req, res, next) => {
@@ -44,13 +44,7 @@ exports.storeSel = (req, res, next) => {
         },
         (menu) => {
           slack.message(menu);
-          
-          // res.send({
-          //   store: store,
-          //   code: '0000'
-          // });
-          // conn.release();
-          // callback(store);
+
         },
       ], (err, result) => {
         console.log('##### User error: ', err)
