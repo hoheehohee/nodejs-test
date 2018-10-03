@@ -14,4 +14,4 @@ router.route('/store')
 router.route('/email')
   .post(email.send)
 
-module.exports = router;
+module.exports = router

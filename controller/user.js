@@ -1,5 +1,5 @@
 const async = require('async');
-const pool = require('../dbconnecter');
+const pool = require('../lib/db');
 
 exports.userSel = (req, res, next) => {
   pool.getConnection((err, conn) => {
