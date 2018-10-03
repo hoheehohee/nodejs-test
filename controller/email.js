@@ -11,9 +11,9 @@ exports.send = (req, res, next) => {
     try {
       async.waterfall([
         (callback) => {
-          // email.send(req.body);
+          email.send(req.body);
           res.send({
-            code: '0000'
+            code: '1111'
           });
         }
       ], (err, result) => {

@@ -1,4 +1,7 @@
 const nodemailer = require('nodemailer');
+const FormData = require('form-data')
+const axios = require('axios');
+const qs = require('qs');
 const fs = require('fs');
 
 exports.send = (event) => {
@@ -16,19 +19,7 @@ exports.send = (event) => {
   const formEmail = 'yongho@vendys.co.kr';
   const vandysEmail = 'yongho@vendys.co.kr'
 
-
-  let transporter = nodemailer.createTransport({
-    host: 'smtp.mailgun.org',
-    port: 465,
-    secure: false,
-    service: 'mailgun',
-    auth: {
-      user: authEmail,
-      pass: authPass
-    }
-  });
-
-  let mailOptions = [];
+  let mailParams = [];
   let text = `
     기업명/상호명: ${company}
     이름: ${name}
@@ -36,34 +27,39 @@ exports.send = (event) => {
     이메일: ${toEmail}
   `
   if (type === 'inquire') {
-    mailOptions.push({
+    mailParams.push({
       from: `${formEmail}`, // sender address
       to: `${toEmail}`, // list of receivers
       subject: '[식권대장] 문의를 접수해주셔서 감사합니다.', // Subject line
       html: fs.readFileSync(__dirname + '/signup_invite.html').toString()
     });
-    mailOptions.push({
+    mailParams.push({
       from: `${formEmail}`, // sender address
       to: `${vandysEmail}`, // list of receivers
-      subject: '[식권대장 - test] 상담문의 요청이 접수 되었습니다.',
+      subject: '[식권대장] 상담문의 요청이 접수 되었습니다.',
       text
     });
   } else {
-    mailOptions.push({
+    mailParams.push({
       from: `${formEmail}`, // sender address
       to: `${vandysEmail}`, // list of receivers
       subject: '[식권대장] 사례집 요청이 접수 되었습니다.',
       text: `이메일: ${toEmail}`
     });
   }
-
-  mailOptions.forEach((data, index) => {
-    transporter.sendMail(data, (error, info) => {
-      if (error) {
-        return console.log(error);
-      } else {
-        console.log('##### info: ', info)
-      }
+  mailParams.forEach((data, index) => {
+    axios({
+      method: 'post',
+      url: null,
+      headers: { 'content-type': 'application/x-www-form-urlencoded' },
+      data: qs.stringify(data),
+    })
+    .then(function (response) {
+      console.log('##### success: ')
+      
+      // console.log(response);
+    })
+    .catch(function (error) {
     });
   });
 }
