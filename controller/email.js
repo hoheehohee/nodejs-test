@@ -1,6 +1,6 @@
 const async = require('async');
 const pool = require('../lib/db');
-const email = require('../services/emailsend');
+const email = require('../util/Emailsend');
 
 exports.send = (req, res, next) => {
   pool.getConnection((err, conn) => {

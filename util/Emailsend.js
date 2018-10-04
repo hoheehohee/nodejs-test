@@ -31,7 +31,7 @@ exports.send = (event) => {
       from: `${formEmail}`, // sender address
       to: `${toEmail}`, // list of receivers
       subject: '[식권대장] 문의를 접수해주셔서 감사합니다.', // Subject line
-      html: fs.readFileSync(__dirname + '/signup_invite.html').toString()
+      html: fs.readFileSync(__dirname + '/html/signup_invite.html').toString()
     });
     mailParams.push({
       from: `${formEmail}`, // sender address
