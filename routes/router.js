@@ -7,6 +7,8 @@ const router = express.Router();
 router.route('/user')
   .get(user.userSel)
   .post(user.userSel);
+router.route('/accepterUser')
+  .get(user.acceptersUser)
 
 router.route('/store')
   .get(store.storeSel)

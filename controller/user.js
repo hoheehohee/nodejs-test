@@ -32,6 +32,22 @@ exports.userSel = (req, res, next) => {
   });
 };
 
+exports.acceptersUser = (req, res, next) => {
+  try {
+    async.waterfall([
+      (callback) => {
+        res.send({
+          code: '0000'
+        });
+      }
+    ], (err, result) => {
+      console.log('##### async.waterfall error: ', err)
+    })
+  } catch (error) {
+    console.log('##### error: ', error)
+  }
+}
+
 exports.userMod = (req, res, next) => {
   res.send('post test');
 }
