@@ -8,15 +8,10 @@ const options = {
 const apnConnection = new apn.Connection(options);
 
 exports.push = (message) => {
-  const token = 'df9184e933a7f9993c69bb515f3f4d84d545c16064cc1566c72247a2bec52457'
+  const token = null;
   const myDevice = new apn.Device(token);
   const note = new apn.Notification();
   note.alert = message;
   apnConnection.pushNotification(note, myDevice);
-
-
-
-
-
 
 };
