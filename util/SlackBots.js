@@ -14,12 +14,11 @@ exports.message = (data) => {
     console.log('##### null data: ')
     return;
   }else {
-    const message = `
-      식당: ${data.storename},
-      장소: ${data.address},
-      추천 메뉴: ${data.menuname},
-      가격: ${data.price}
-    `;
+    const message = 
+    '식당: ' + data.storename + '\n'
+      + '장소: ' + data.address + '\n'
+      + '추천 메뉴: ' + data.menuname + '\n'
+      + '가격: ' + data.price + '원';
     IOSPush.push(message);
     rtm.sendMessage(message, conversationId)
     .then((res) => {

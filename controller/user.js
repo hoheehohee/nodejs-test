@@ -1,6 +1,5 @@
 const async = require('async');
 const pool = require('../lib/db');
-const IOSPush = require('../util/IOS_push');
 exports.userSel = (req, res, next) => {
   pool.getConnection((err, conn) => {
     if (err) {
@@ -18,7 +17,6 @@ exports.userSel = (req, res, next) => {
           })
         },
         (user) => {
-          IOSPush.push('test');
           res.send({
             user: user,
             code: '0000'

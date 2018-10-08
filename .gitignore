@@ -1,4 +1,5 @@
 *.DS_Store
 .metadata
 node_modules
+util/pem
 build
