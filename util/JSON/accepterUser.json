@@ -1,0 +1,29 @@
+ {
+   "accepters": [{
+     "id": "3CE3B9CF-7711-FFCA-36DD-FA1C6187F86D",
+     "signId": "sungsik81",
+     "name": "Z_최성식",
+     "orgCode": "E35F6BCC-27AF-426F-BFEB-33B9A9D1FDBA",
+     "rankposition": "",
+     "position": "내직급",
+     "comidnum": "짬찌",
+     "status": "ACTIVE",
+     "grade": {
+       "code": "SUPER",
+       "text": "전체관리자"
+     }
+   }, {
+     "id": "9942A134-848B-A9D0-C1AB-EEE4D7734B04",
+     "signId": "qqq111",
+     "name": "일결재",
+     "orgCode": "3375DF88-CF84-4620-8BA4-2B59F80ED8D5",
+     "rankposition": "",
+     "position": "",
+     "comidnum": "",
+     "status": "ACTIVE",
+     "grade": {
+       "code": "COM_ADMIN",
+       "text": "회사관리자"
+     }
+   }]
+ }

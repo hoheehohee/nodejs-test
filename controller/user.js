@@ -1,5 +1,7 @@
 const async = require('async');
 const pool = require('../lib/db');
+const accepters = require('../util/AccepterUser');
+
 exports.userSel = (req, res, next) => {
   pool.getConnection((err, conn) => {
     if (err) {
@@ -36,8 +38,11 @@ exports.acceptersUser = (req, res, next) => {
   try {
     async.waterfall([
       (callback) => {
+        const aUser = require('../util/JSON/accepterUser.json');
+        const map = accepters.user(aUser);
         res.send({
-          code: '0000'
+          code: '0000',
+          map: map.get('E554E99F-F65C-3C92-D08C-BD251A01CE8B')
         });
       }
     ], (err, result) => {
