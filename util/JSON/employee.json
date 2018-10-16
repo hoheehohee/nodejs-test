@@ -1,0 +1,2357 @@
+{
+  "user": [{
+    "id": "E9022D9A-3D4D-3870-41BA-0F930A0CC800",
+    "signid": "kkwakc",
+    "name": "Z_곽찬우",
+    "orgCode": "BE02C1A3-2468-4449-A66F-948E49DAE05A",
+    "email": {
+      "value": "kwak@vendys.co.kr",
+      "auth": true
+    },
+    "phone": {
+      "value": "01052620460",
+      "auth": true
+    },
+    "rankposition": "",
+    "position": "대리",
+    "comidnum": "sksldgls12",
+    "level": -1,
+    
+    "regdate": 1438561239000,
+    "group": {
+      "idx": 1,
+      "name": "조식"
+    },
+    "policy": [{
+      "idx": 85,
+      "name": "장기 A",
+      "amount": 54000,
+      "type": "LONGTERM"
+    }, {
+      "idx": 1156,
+      "name": "식권신청 수동",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1157,
+      "name": "식권신청 결재라인",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "8D1C4B6B-9F7B-2658-2775-FADF3B8AE538",
+    "signid": "qwertqwert",
+    "name": "Z_김누리",
+    "orgCode": "EC539A3F-A7D1-48DA-9FC9-75F7B0E8EC5F",
+    "email": {
+      "value": "nuri@vendys.co.kr",
+      "auth": false
+    },
+    "phone": {
+      "value": "01092649210",
+      "auth": false
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": 99,
+    "regdate": 1476780394000,
+    "group": {
+      "idx": 1,
+      "name": "조식"
+    },
+    "policy": [{
+      "idx": 85,
+      "name": "장기 A",
+      "amount": 54000,
+      "type": "LONGTERM"
+    }, {
+      "idx": 1156,
+      "name": "식권신청 수동",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1157,
+      "name": "식권신청 결재라인",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "1E8561C4-B55F-2BF6-FFCC-F7DCA36B0A50",
+    "signid": "danbi@vendys.co.kr",
+    "name": "Z_김단비",
+    "orgCode": "818DF6A1-B7E5-45E1-B7E6-2D4A8F651BE0",
+    "email": {
+      "value": "danbi@vendys.com",
+      "auth": false
+    },
+    "phone": {
+      "value": "01080069558",
+      "auth": true
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "sksldgls13",
+    "level": 30,
+    "regdate": 1510820223000,
+    "group": {
+      "idx": 1,
+      "name": "조식"
+    },
+    "policy": [{
+      "idx": 85,
+      "name": "장기 A",
+      "amount": 54000,
+      "type": "LONGTERM"
+    }, {
+      "idx": 1156,
+      "name": "식권신청 수동",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1157,
+      "name": "식권신청 결재라인",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "286E0A49-BCEA-B554-A136-63F962EC75B2",
+    "signid": "venven",
+    "name": "Z_김대장",
+    "orgCode": "4C1CA6CB-0EDE-4717-BEAF-0764DCFE46CF",
+    "email": {
+      "value": null,
+      "auth": null
+    },
+    "phone": {
+      "value": "",
+      "auth": null
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": 30,
+    "regdate": 1520312071000,
+    "group": {
+      "idx": 1,
+      "name": "조식"
+    },
+    "policy": [{
+      "idx": 85,
+      "name": "장기 A",
+      "amount": 57000,
+      "type": "LONGTERM"
+    }, {
+      "idx": 1156,
+      "name": "식권신청 수동",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1157,
+      "name": "식권신청 결재라인",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "8AEB5ECE-0E97-108E-49D8-4BD95F92A8AC",
+    "signid": "evolution08",
+    "name": "Z_김병채",
+    "orgCode": "818DF6A1-B7E5-45E1-B7E6-2D4A8F651BE0",
+    "email": {
+      "value": "bckim23@gmail.com",
+      "auth": true
+    },
+    "phone": {
+      "value": "01064279944",
+      "auth": true
+    },
+    "rankposition": "",
+    "position": "팀장",
+    "comidnum": "sksl14",
+    "level": 99,
+    "regdate": 1472523062000,
+    "group": {
+      "idx": 294,
+      "name": "팀장그룹"
+    },
+    "policy": [{
+      "idx": 597,
+      "name": "중식",
+      "amount": 37001,
+      "type": "LONGTERM"
+    }, {
+      "idx": 840,
+      "name": "무제한 테스트 1",
+      "amount": 0,
+      "type": "INFINITE"
+    }, {
+      "idx": 1204,
+      "name": "팀장 결재라인 신청",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1205,
+      "name": "주말석식",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1852,
+      "name": "무제한 테스트 2",
+      "amount": 0,
+      "type": "INFINITE"
+    }, {
+      "idx": 1857,
+      "name": "장기 테스트",
+      "amount": 0,
+      "type": "LONGTERM"
+    }]
+  }, {
+    "id": "E61023A4-CB98-9542-3E3D-243B5159490E",
+    "signid": "jgkim",
+    "name": "Z_김보람",
+    "orgCode": "97447D21-D1BD-495C-A2E7-D6A0A0FCD9C5",
+    "email": {
+      "value": "jgkim@vendys.co.kr",
+      "auth": false
+    },
+    "phone": {
+      "value": "01037339604",
+      "auth": true
+    },
+    "rankposition": "",
+    "position": "팀장",
+    "comidnum": "",
+    "level": -1,
+    "regdate": 1495412872000,
+    "group": {
+      "idx": 294,
+      "name": "팀장그룹"
+    },
+    "policy": [{
+      "idx": 597,
+      "name": "중식",
+      "amount": 37000,
+      "type": "LONGTERM"
+    }, {
+      "idx": 840,
+      "name": "무제한 테스트 1",
+      "amount": 0,
+      "type": "INFINITE"
+    }, {
+      "idx": 1204,
+      "name": "팀장 결재라인 신청",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1205,
+      "name": "주말석식",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1852,
+      "name": "무제한 테스트 2",
+      "amount": 0,
+      "type": "INFINITE"
+    }, {
+      "idx": 1857,
+      "name": "장기 테스트",
+      "amount": 2,
+      "type": "LONGTERM"
+    }]
+  }, {
+    "id": "4914CB37-82DF-736D-5073-D6B50A1BB71A",
+    "signid": "zlatjs",
+    "name": "Z_김선미",
+    "orgCode": "59906B5B-41AC-478E-8C70-381E96096F08",
+    "email": {
+      "value": "seonmi@vendys.co.kr",
+      "auth": true
+    },
+    "phone": {
+      "value": "01094664066",
+      "auth": true
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": 99,
+    "regdate": 1519026724000,
+    "group": {
+      "idx": 1,
+      "name": "조식"
+    },
+    "policy": [{
+      "idx": 85,
+      "name": "장기 A",
+      "amount": 54000,
+      "type": "LONGTERM"
+    }, {
+      "idx": 1156,
+      "name": "식권신청 수동",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1157,
+      "name": "식권신청 결재라인",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "B4987FB1-0BCB-A440-F82F-7A63F789DDF8",
+    "signid": "01091739025",
+    "name": "Z_김찬휘",
+    "orgCode": "BE02C1A3-2468-4449-A66F-948E49DAE05A",
+    "email": {
+      "value": null,
+      "auth": null
+    },
+    "phone": {
+      "value": "01091739025",
+      "auth": null
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "sksldgls15",
+    "level": 1,
+    "regdate": 1533626311000,
+    "group": {
+      "idx": 1,
+      "name": "조식"
+    },
+    "policy": [{
+      "idx": 85,
+      "name": "장기 A",
+      "amount": 54000,
+      "type": "LONGTERM"
+    }, {
+      "idx": 1156,
+      "name": "식권신청 수동",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1157,
+      "name": "식권신청 결재라인",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "223193BF-7674-9167-627C-13FB3496B298",
+    "signid": "yjyjb",
+    "name": "Z_박준배",
+    "orgCode": "01D41FCE-C68B-4917-9ADE-2AC204387B53",
+    "email": {
+      "value": "junbae@vendys.co.kr",
+      "auth": true
+    },
+    "phone": {
+      "value": "01062509447",
+      "auth": false
+    },
+    "rankposition": "",
+    "position": "팀장",
+    "comidnum": "sksldgls16",
+    "level": 99,
+    "regdate": 1477377134000,
+    "group": {
+      "idx": 294,
+      "name": "팀장그룹"
+    },
+    "policy": [{
+      "idx": 597,
+      "name": "중식",
+      "amount": 37000,
+      "type": "LONGTERM"
+    }, {
+      "idx": 840,
+      "name": "무제한 테스트 1",
+      "amount": 0,
+      "type": "INFINITE"
+    }, {
+      "idx": 1204,
+      "name": "팀장 결재라인 신청",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1205,
+      "name": "주말석식",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1852,
+      "name": "무제한 테스트 2",
+      "amount": 0,
+      "type": "INFINITE"
+    }, {
+      "idx": 1857,
+      "name": "장기 테스트",
+      "amount": 2,
+      "type": "LONGTERM"
+    }]
+  }, {
+    "id": "3D2F5149-ADF1-A494-7826-2F972BED6461",
+    "signid": "jinsungbark",
+    "name": "Z_박진성",
+    "orgCode": "341D0F13-4A15-42E2-949E-06EEE6E61A66",
+    "email": {
+      "value": "jinsung@vendys.co.kr",
+      "auth": true
+    },
+    "phone": {
+      "value": "01031682914",
+      "auth": true
+    },
+    "rankposition": "",
+    "position": "대리",
+    "comidnum": "sksldgls17",
+    "level": 30,
+    "regdate": 1476335890000,
+    "group": {
+      "idx": 1,
+      "name": "조식"
+    },
+    "policy": [{
+      "idx": 85,
+      "name": "장기 A",
+      "amount": 54001,
+      "type": "LONGTERM"
+    }, {
+      "idx": 1156,
+      "name": "식권신청 수동",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1157,
+      "name": "식권신청 결재라인",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "D643CF5A-9913-EFCD-AADA-E5DFF66EAB9D",
+    "signid": "sonchiho",
+    "name": "Z_손치호",
+    "orgCode": "3375DF88-CF84-4620-8BA4-2B59F80ED8D5",
+    "email": {
+      "value": null,
+      "auth": null
+    },
+    "phone": {
+      "value": "01027710965",
+      "auth": true
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "sksldgls18",
+    "level": 99,
+    "regdate": 1508114863000,
+    "group": {
+      "idx": 1,
+      "name": "조식"
+    },
+    "policy": [{
+      "idx": 85,
+      "name": "장기 A",
+      "amount": 54000,
+      "type": "LONGTERM"
+    }, {
+      "idx": 1156,
+      "name": "식권신청 수동",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1157,
+      "name": "식권신청 결재라인",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "64A30598-98B8-65A4-5767-BF664F901792",
+    "signid": "qqww11",
+    "name": "Z_식권대장",
+    "orgCode": "4C1CA6CB-0EDE-4717-BEAF-0764DCFE46CF",
+    "email": {
+      "value": null,
+      "auth": false
+    },
+    "phone": {
+      "value": "",
+      "auth": true
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": 30,
+    "regdate": 1520839839000,
+    "group": {
+      "idx": 1,
+      "name": "조식"
+    },
+    "policy": [{
+      "idx": 85,
+      "name": "장기 A",
+      "amount": 254006,
+      "type": "LONGTERM"
+    }, {
+      "idx": 1156,
+      "name": "식권신청 수동",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1157,
+      "name": "식권신청 결재라인",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "752F094E-4CB9-C169-D272-3037A4D9F569",
+    "signid": "20071519",
+    "name": "Z_신재윤",
+    "orgCode": "3375DF88-CF84-4620-8BA4-2B59F80ED8D5",
+    "email": {
+      "value": "shin@vendys.co.kr",
+      "auth": true
+    },
+    "phone": {
+      "value": "01095157915",
+      "auth": true
+    },
+    "rankposition": "",
+    "position": "영업이사",
+    "comidnum": "sksldgls19",
+    "level": 99,
+    "regdate": 1424763215000,
+    "group": {
+      "idx": 3,
+      "name": "무제한그룹"
+    },
+    "policy": [{
+      "idx": 87,
+      "name": "중식",
+      "amount": 350002,
+      "type": "LONGTERM"
+    }, {
+      "idx": 259,
+      "name": "석식",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1202,
+      "name": "결재라인 신청",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1203,
+      "name": "주말석식",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "A9161383-D4AD-8EAB-A048-67D73B4E93C9",
+    "signid": "caylin12",
+    "name": "Z_윤보연",
+    "orgCode": "6BC3446B-E33D-4A06-9E2B-3522746F6BCF",
+    "email": {
+      "value": "boyeon@vendys.co.kr",
+      "auth": true
+    },
+    "phone": {
+      "value": "01028030489",
+      "auth": true
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "sksldgls20",
+    "level": 30,
+    "regdate": 1513132279000,
+    "group": {
+      "idx": 2,
+      "name": "간식그룹"
+    },
+    "policy": [{
+      "idx": 82,
+      "name": "장기 A",
+      "amount": 10150001,
+      "type": "LONGTERM"
+    }, {
+      "idx": 258,
+      "name": "신청 수동",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1171,
+      "name": "신청 결재라인",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1200,
+      "name": "신청 자동",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "A0AC1219-F869-F197-0E91-BB2A69E1F701",
+    "signid": "yhg0212",
+    "name": "Z_윤홍균",
+    "orgCode": "A7F2608D-28C6-4128-812A-9F759F67344C",
+    "email": {
+      "value": "yoon@vendys.co.kr",
+      "auth": true
+    },
+    "phone": {
+      "value": "01091916179",
+      "auth": null
+    },
+    "rankposition": "과장",
+    "position": "",
+    "comidnum": "",
+    "level": 99,
+    "regdate": 1493110430000,
+    "group": {
+      "idx": 1,
+      "name": "조식"
+    },
+    "policy": [{
+      "idx": 85,
+      "name": "장기 A",
+      "amount": 54000,
+      "type": "LONGTERM"
+    }, {
+      "idx": 1156,
+      "name": "식권신청 수동",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1157,
+      "name": "식권신청 결재라인",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "CE7B71FA-EDB6-8E4E-7BC9-80BD052BC538",
+    "signid": "dowon1982",
+    "name": "Z_이도원",
+    "orgCode": "D10FADF4-E9FB-4E40-927E-8E47F7E8CC15",
+    "email": {
+      "value": "dowon@vendys.co.kr",
+      "auth": false
+    },
+    "phone": {
+      "value": "01026329080",
+      "auth": false
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": 99,
+    "regdate": 1484102024000,
+    "group": {
+      "idx": 1,
+      "name": "조식"
+    },
+    "policy": [{
+      "idx": 85,
+      "name": "장기 A",
+      "amount": 54012,
+      "type": "LONGTERM"
+    }, {
+      "idx": 1156,
+      "name": "식권신청 수동",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1157,
+      "name": "식권신청 결재라인",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "38D7D768-4C19-C342-F0FA-0FC09B623D6B",
+    "signid": "ymy@vendys.co.kr",
+    "name": "Z_이민영",
+    "orgCode": "ECBE179E-E884-423D-A032-2E56308F557D",
+    "email": {
+      "value": "ymy@vendys.co.kr",
+      "auth": true
+    },
+    "phone": {
+      "value": "01041017812",
+      "auth": true
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": 99,
+    "regdate": 1524099469000,
+    "group": {
+      "idx": 1,
+      "name": "조식"
+    },
+    "policy": [{
+      "idx": 85,
+      "name": "장기 A",
+      "amount": 54000,
+      "type": "LONGTERM"
+    }, {
+      "idx": 1156,
+      "name": "식권신청 수동",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1157,
+      "name": "식권신청 결재라인",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "F0443430-39D2-4B4D-8521-96716E65FE8A",
+    "signid": "iqzero80",
+    "name": "Z_이진우",
+    "orgCode": "D10FADF4-E9FB-4E40-927E-8E47F7E8CC15",
+    "email": {
+      "value": "www.hohee@gmail.com",
+      "auth": false
+    },
+    "phone": {
+      "value": "01042211827",
+      "auth": true
+    },
+    "rankposition": "",
+    "position": "강아지",
+    "comidnum": "100",
+    "level": 99,
+    "regdate": 1426994783000,
+    "group": {
+      "idx": 294,
+      "name": "팀장그룹"
+    },
+    "policy": [{
+      "idx": 597,
+      "name": "중식",
+      "amount": 37000,
+      "type": "LONGTERM"
+    }, {
+      "idx": 840,
+      "name": "무제한 테스트 1",
+      "amount": 0,
+      "type": "INFINITE"
+    }, {
+      "idx": 1204,
+      "name": "팀장 결재라인 신청",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1205,
+      "name": "주말석식",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1852,
+      "name": "무제한 테스트 2",
+      "amount": 0,
+      "type": "INFINITE"
+    }, {
+      "idx": 1857,
+      "name": "장기 테스트",
+      "amount": 0,
+      "type": "LONGTERM"
+    }]
+  }, {
+    "id": "24D5BB4D-5CDA-A0AD-D2E2-31C4D580B5B2",
+    "signid": "glakd2000",
+    "name": "Z_이태기",
+    "orgCode": "BE02C1A3-2468-4449-A66F-948E49DAE05A",
+    "email": {
+      "value": "ltk@vendys.co.kr",
+      "auth": false
+    },
+    "phone": {
+      "value": "01088659222",
+      "auth": true
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "sksldgls21",
+    "level": 30,
+    "regdate": 1482373141000,
+    "group": {
+      "idx": 2,
+      "name": "간식그룹"
+    },
+    "policy": [{
+      "idx": 82,
+      "name": "장기 A",
+      "amount": 150002,
+      "type": "LONGTERM"
+    }, {
+      "idx": 258,
+      "name": "신청 수동",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1171,
+      "name": "신청 결재라인",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1200,
+      "name": "신청 자동",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "08EBDAD3-8AA8-814C-584C-02D9CB717A02",
+    "signid": "huidragon",
+    "name": "Z_이희용",
+    "orgCode": "E35F6BCC-27AF-426F-BFEB-33B9A9D1FDBA",
+    "email": {
+      "value": "z_hui@vendys.co.kr",
+      "auth": true
+    },
+    "phone": {
+      "value": "01064849713",
+      "auth": true
+    },
+    "rankposition": "",
+    "position": "Developer",
+    "comidnum": "",
+    "level": 99,
+    "regdate": 1496215411000,
+    "group": {
+      "idx": 1,
+      "name": "조식"
+    },
+    "policy": [{
+      "idx": 85,
+      "name": "장기 A",
+      "amount": 54000,
+      "type": "LONGTERM"
+    }, {
+      "idx": 1156,
+      "name": "식권신청 수동",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1157,
+      "name": "식권신청 결재라인",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "7F868AF4-6713-4079-E830-188CE11D7DFE",
+    "signid": "showjin",
+    "name": "Z_장성진",
+    "orgCode": "F2D1C52D-2317-4410-8A36-9C556F9E4C44",
+    "email": {
+      "value": "sungjin@vendys.co.kr",
+      "auth": false
+    },
+    "phone": {
+      "value": "01071098627",
+      "auth": true
+    },
+    "rankposition": "",
+    "position": "이사",
+    "comidnum": "",
+    "level": 99,
+    "regdate": 1444617150000,
+    "group": {
+      "idx": 3,
+      "name": "무제한그룹"
+    },
+    "policy": [{
+      "idx": 87,
+      "name": "중식",
+      "amount": 350002,
+      "type": "LONGTERM"
+    }, {
+      "idx": 259,
+      "name": "석식",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1202,
+      "name": "결재라인 신청",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1203,
+      "name": "주말석식",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "0D6D55E7-2E9E-B8D0-29EB-1E2BB9D1F2BC",
+    "signid": "mkxamkxa",
+    "name": "Z_장준영",
+    "orgCode": "4C1CA6CB-0EDE-4717-BEAF-0764DCFE46CF",
+    "email": {
+      "value": "derek@vendys.com",
+      "auth": false
+    },
+    "phone": {
+      "value": "01066038503",
+      "auth": true
+    },
+    "rankposition": "",
+    "position": "이사",
+    "comidnum": "1",
+    "level": 99,
+    "regdate": 1424763215000,
+    "group": {
+      "idx": 3,
+      "name": "무제한그룹"
+    },
+    "policy": [{
+      "idx": 87,
+      "name": "중식",
+      "amount": 350002,
+      "type": "LONGTERM"
+    }, {
+      "idx": 259,
+      "name": "석식",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1202,
+      "name": "결재라인 신청",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1203,
+      "name": "주말석식",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "FECD977E-B319-6A63-E67B-B0058F7A0364",
+    "signid": null,
+    "name": "Z_장중수",
+    "orgCode": "D10FADF4-E9FB-4E40-927E-8E47F7E8CC15",
+    "email": {
+      "value": "softjang83_+@gmail.com",
+      "auth": false
+    },
+    "phone": {
+      "value": "01050972746",
+      "auth": null
+    },
+    "rankposition": null,
+    "position": null,
+    "comidnum": "",
+    "level": 99,
+    "regdate": 1472626944000,
+    "group": {
+      "idx": 1,
+      "name": "조식"
+    },
+    "policy": [{
+      "idx": 85,
+      "name": "장기 A",
+      "amount": 54000,
+      "type": "LONGTERM"
+    }, {
+      "idx": 1156,
+      "name": "식권신청 수동",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1157,
+      "name": "식권신청 결재라인",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "F496220C-E214-6794-F0DE-115F93454400",
+    "signid": "injoco",
+    "name": "Z_정다애",
+    "orgCode": "F2D1C52D-2317-4410-8A36-9C556F9E4C44",
+    "email": {
+      "value": "daae@vendys.co.kr",
+      "auth": true
+    },
+    "phone": {
+      "value": "01030332439",
+      "auth": true
+    },
+    "rankposition": "가나다라",
+    "position": "대리",
+    "comidnum": "",
+    "level": 99,
+    "regdate": 1492388062000,
+    "group": {
+      "idx": 294,
+      "name": "팀장그룹"
+    },
+    "policy": [{
+      "idx": 597,
+      "name": "중식",
+      "amount": 37000,
+      "type": "LONGTERM"
+    }, {
+      "idx": 840,
+      "name": "무제한 테스트 1",
+      "amount": 0,
+      "type": "INFINITE"
+    }, {
+      "idx": 1204,
+      "name": "팀장 결재라인 신청",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1205,
+      "name": "주말석식",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1852,
+      "name": "무제한 테스트 2",
+      "amount": 0,
+      "type": "INFINITE"
+    }, {
+      "idx": 1857,
+      "name": "장기 테스트",
+      "amount": 2,
+      "type": "LONGTERM"
+    }]
+  }, {
+    "id": "56F0931B-7243-2595-719F-65EEBE47884B",
+    "signid": "hoheehohee",
+    "name": "Z_정용호",
+    "orgCode": "D10FADF4-E9FB-4E40-927E-8E47F7E8CC15",
+    "email": {
+      "value": "yongho@vendys.co.kr",
+      "auth": false
+    },
+    "phone": {
+      "value": "01030664845",
+      "auth": true
+    },
+    "rankposition": "",
+    "position": "연구원",
+    "comidnum": "",
+    "level": 99,
+    "regdate": 1477370905000,
+    "group": {
+      "idx": 1,
+      "name": "조식"
+    },
+    "policy": [{
+      "idx": 85,
+      "name": "장기 A",
+      "amount": 54000,
+      "type": "LONGTERM"
+    }, {
+      "idx": 1156,
+      "name": "식권신청 수동",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1157,
+      "name": "식권신청 결재라인",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "4798FB43-6171-B2E7-672C-7CBD978EA34E",
+    "signid": "crewcho",
+    "name": "Z_조정호",
+    "orgCode": "51355A29-E0D7-4BD6-9F7C-E254DA6ACD14",
+    "email": {
+      "value": "jungho@vendys.co.kr",
+      "auth": true
+    },
+    "phone": {
+      "value": "01054990067",
+      "auth": true
+    },
+    "rankposition": "",
+    "position": "대표이사",
+    "comidnum": "",
+    "level": 99,
+    "regdate": 1424763215000,
+    "group": {
+      "idx": 3,
+      "name": "무제한그룹"
+    },
+    "policy": [{
+      "idx": 87,
+      "name": "중식",
+      "amount": 350002,
+      "type": "LONGTERM"
+    }, {
+      "idx": 259,
+      "name": "석식",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1202,
+      "name": "결재라인 신청",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1203,
+      "name": "주말석식",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "0622C187-85CE-0910-44C7-ABF91086D269",
+    "signid": "wonhee",
+    "name": "Z_주원희",
+    "orgCode": "2F8B1983-0D72-4874-B9D6-EF4D68B190A8",
+    "email": {
+      "value": "wonhee@vendys.co.kr",
+      "auth": true
+    },
+    "phone": {
+      "value": "01071943437",
+      "auth": true
+    },
+    "rankposition": "가장",
+    "position": "팀장",
+    "comidnum": "sksldgls22",
+    "level": 99,
+    "regdate": 1475543156000,
+    "group": {
+      "idx": 294,
+      "name": "팀장그룹"
+    },
+    "policy": [{
+      "idx": 597,
+      "name": "중식",
+      "amount": 37001,
+      "type": "LONGTERM"
+    }, {
+      "idx": 840,
+      "name": "무제한 테스트 1",
+      "amount": 0,
+      "type": "INFINITE"
+    }, {
+      "idx": 1204,
+      "name": "팀장 결재라인 신청",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1205,
+      "name": "주말석식",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1852,
+      "name": "무제한 테스트 2",
+      "amount": 0,
+      "type": "INFINITE"
+    }, {
+      "idx": 1857,
+      "name": "장기 테스트",
+      "amount": 0,
+      "type": "LONGTERM"
+    }]
+  }, {
+    "id": "F8055323-8154-5252-DF27-D9BDCF2F3BF9",
+    "signid": "wltn5714",
+    "name": "Z_채지수",
+    "orgCode": "6BC3446B-E33D-4A06-9E2B-3522746F6BCF",
+    "email": {
+      "value": "jisu@vendys.co.kr",
+      "auth": true
+    },
+    "phone": {
+      "value": "01055025082",
+      "auth": false
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "sksldgls23",
+    "level": 99,
+    "regdate": 1475543217000,
+    "group": {
+      "idx": 1,
+      "name": "조식"
+    },
+    "policy": [{
+      "idx": 85,
+      "name": "장기 A",
+      "amount": 54000,
+      "type": "LONGTERM"
+    }, {
+      "idx": 1156,
+      "name": "식권신청 수동",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1157,
+      "name": "식권신청 결재라인",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "3CE3B9CF-7711-FFCA-36DD-FA1C6187F86D",
+    "signid": "sungsik81",
+    "name": "Z_최성식",
+    "orgCode": "E35F6BCC-27AF-426F-BFEB-33B9A9D1FDBA",
+    "email": {
+      "value": "z_sungsik@vendys.co.kr",
+      "auth": true
+    },
+    "phone": {
+      "value": "01023768262",
+      "auth": true
+    },
+    "rankposition": "",
+    "position": "내직급",
+    "comidnum": "짬찌",
+    "level": 99,
+    "regdate": 1477373310000,
+    "group": {
+      "idx": 1,
+      "name": "조식"
+    },
+    "policy": [{
+      "idx": 85,
+      "name": "장기 A",
+      "amount": 54000,
+      "type": "LONGTERM"
+    }, {
+      "idx": 1156,
+      "name": "식권신청 수동",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1157,
+      "name": "식권신청 결재라인",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "8A79517F-D019-A867-E008-11A303299C5E",
+    "signid": "sungsik82",
+    "name": "Z_최성식테스트82",
+    "orgCode": "4C1CA6CB-0EDE-4717-BEAF-0764DCFE46CF",
+    "email": {
+      "value": null,
+      "auth": null
+    },
+    "phone": {
+      "value": null,
+      "auth": null
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": 1,
+    "regdate": 1479710360000,
+    "group": {
+      "idx": 1,
+      "name": "조식"
+    },
+    "policy": [{
+      "idx": 85,
+      "name": "장기 A",
+      "amount": 54000,
+      "type": "LONGTERM"
+    }, {
+      "idx": 1156,
+      "name": "식권신청 수동",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1157,
+      "name": "식권신청 결재라인",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "FBFC0999-2A8C-335D-75E3-E1144E169A24",
+    "signid": "sungsik83",
+    "name": "Z_최성식테스트83",
+    "orgCode": "5BC5AFEC-E9B8-4584-A969-5E350AAA4F96",
+    "email": {
+      "value": null,
+      "auth": null
+    },
+    "phone": {
+      "value": "01510547973",
+      "auth": null
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": 1,
+    "regdate": 1479710489000,
+    "group": {
+      "idx": 289,
+      "name": "인턴"
+    },
+    "policy": [{
+      "idx": 587,
+      "name": "중식",
+      "amount": 0,
+      "type": "DAY"
+    }, {
+      "idx": 606,
+      "name": "야근식대",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "7B934093-002A-7C09-B2A7-CBE8E7052D57",
+    "signid": "jaehee",
+    "name": "Z_최재희",
+    "orgCode": "341D0F13-4A15-42E2-949E-06EEE6E61A66",
+    "email": {
+      "value": null,
+      "auth": null
+    },
+    "phone": {
+      "value": "01071340501",
+      "auth": true
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "sksldgls24",
+    "level": 99,
+    "regdate": 1479862611000,
+    "group": {
+      "idx": 1,
+      "name": "조식"
+    },
+    "policy": [{
+      "idx": 85,
+      "name": "장기 A",
+      "amount": 54013,
+      "type": "LONGTERM"
+    }, {
+      "idx": 1156,
+      "name": "식권신청 수동",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1157,
+      "name": "식권신청 결재라인",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "E554E99F-F65C-3C92-D08C-BD251A01CE8B",
+    "signid": "h",
+    "name": "Z_한선호",
+    "orgCode": "54581FB5-2EB5-483E-84B3-4F2DEFE55DA3",
+    "email": {
+      "value": "han@vendys.co.kr",
+      "auth": true
+    },
+    "phone": {
+      "value": "01020424131",
+      "auth": false
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "01343",
+    "level": 99,
+    "regdate": 1424763215000,
+    "group": {
+      "idx": 3,
+      "name": "무제한그룹"
+    },
+    "policy": [{
+      "idx": 87,
+      "name": "중식",
+      "amount": 350010,
+      "type": "LONGTERM"
+    }, {
+      "idx": 259,
+      "name": "석식",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1202,
+      "name": "결재라인 신청",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1203,
+      "name": "주말석식",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "C1E0FD01-5753-6062-0F84-091726CFE4BC",
+    "signid": "sunghee",
+    "name": "Z_황성희",
+    "orgCode": "BE02C1A3-2468-4449-A66F-948E49DAE05A",
+    "email": {
+      "value": "sunghee@vendys.co.kr",
+      "auth": true
+    },
+    "phone": {
+      "value": "01024087152",
+      "auth": false
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "sksldgls25",
+    "level": 30,
+    "regdate": 1455494066000,
+    "group": {
+      "idx": 2,
+      "name": "간식그룹"
+    },
+    "policy": [{
+      "idx": 82,
+      "name": "장기 A",
+      "amount": 150002,
+      "type": "LONGTERM"
+    }, {
+      "idx": 258,
+      "name": "신청 수동",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1171,
+      "name": "신청 결재라인",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1200,
+      "name": "신청 자동",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "EF0A724F-F36A-92B1-E6A0-389AC0FA251A",
+    "signid": "junho",
+    "name": "Z_황준호",
+    "orgCode": "341D0F13-4A15-42E2-949E-06EEE6E61A66",
+    "email": {
+      "value": null,
+      "auth": true
+    },
+    "phone": {
+      "value": "01091528375",
+      "auth": true
+    },
+    "rankposition": "",
+    "position": "대리",
+    "comidnum": "sksldgls26",
+    "level": 99,
+    "regdate": 1472626878000,
+    "group": {
+      "idx": 1,
+      "name": "조식"
+    },
+    "policy": [{
+      "idx": 85,
+      "name": "장기 A",
+      "amount": 54012,
+      "type": "LONGTERM"
+    }, {
+      "idx": 1156,
+      "name": "식권신청 수동",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1157,
+      "name": "식권신청 결재라인",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "09A0B7F7-3F4B-FC8C-D369-3830E484F5E9",
+    "signid": "hohee3001",
+    "name": "hohee3001",
+    "orgCode": "A98859E6-84CB-46FD-92BF-507CE3697425",
+    "email": {
+      "value": null,
+      "auth": null
+    },
+    "phone": {
+      "value": "",
+      "auth": null
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": 1,
+    "regdate": 1538355837000,
+    "group": {
+      "idx": 289,
+      "name": "인턴"
+    },
+    "policy": [{
+      "idx": 587,
+      "name": "중식",
+      "amount": 0,
+      "type": "DAY"
+    }, {
+      "idx": 606,
+      "name": "야근식대",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "EF8BDAC8-D713-F7C3-DB0D-83A62C276C70",
+    "signid": "hohee3002",
+    "name": "hohee3002",
+    "orgCode": "A98859E6-84CB-46FD-92BF-507CE3697425",
+    "email": {
+      "value": null,
+      "auth": null
+    },
+    "phone": {
+      "value": "",
+      "auth": null
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": 1,
+    "regdate": 1538355837000,
+    "group": {
+      "idx": 289,
+      "name": "인턴"
+    },
+    "policy": [{
+      "idx": 587,
+      "name": "중식",
+      "amount": 0,
+      "type": "DAY"
+    }, {
+      "idx": 606,
+      "name": "야근식대",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "B43A9A68-5B6C-0262-3C93-F08774378DC1",
+    "signid": "hohee3003",
+    "name": "hohee3003",
+    "orgCode": "A98859E6-84CB-46FD-92BF-507CE3697425",
+    "email": {
+      "value": null,
+      "auth": null
+    },
+    "phone": {
+      "value": "",
+      "auth": null
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": 1,
+    "regdate": 1538355838000,
+    "group": {
+      "idx": 289,
+      "name": "인턴"
+    },
+    "policy": [{
+      "idx": 587,
+      "name": "중식",
+      "amount": 0,
+      "type": "DAY"
+    }, {
+      "idx": 606,
+      "name": "야근식대",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "020B7CF4-1307-99F3-E936-9B8F414FE776",
+    "signid": "hohee3004",
+    "name": "hohee3004",
+    "orgCode": "A98859E6-84CB-46FD-92BF-507CE3697425",
+    "email": {
+      "value": null,
+      "auth": null
+    },
+    "phone": {
+      "value": "",
+      "auth": null
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": 1,
+    "regdate": 1538355838000,
+    "group": {
+      "idx": 289,
+      "name": "인턴"
+    },
+    "policy": [{
+      "idx": 587,
+      "name": "중식",
+      "amount": 0,
+      "type": "DAY"
+    }, {
+      "idx": 606,
+      "name": "야근식대",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "0A8E0289-85C6-CA2A-8E1F-AD03C97E2487",
+    "signid": "hohee3005",
+    "name": "hohee3005",
+    "orgCode": "A98859E6-84CB-46FD-92BF-507CE3697425",
+    "email": {
+      "value": null,
+      "auth": null
+    },
+    "phone": {
+      "value": "",
+      "auth": null
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": 1,
+    "regdate": 1538355838000,
+    "group": {
+      "idx": 289,
+      "name": "인턴"
+    },
+    "policy": [{
+      "idx": 587,
+      "name": "중식",
+      "amount": 0,
+      "type": "DAY"
+    }, {
+      "idx": 606,
+      "name": "야근식대",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "49DF8307-89D0-5652-47E7-808FE66F45FF",
+    "signid": "hohee3006",
+    "name": "hohee3006",
+    "orgCode": "A98859E6-84CB-46FD-92BF-507CE3697425",
+    "email": {
+      "value": null,
+      "auth": null
+    },
+    "phone": {
+      "value": "",
+      "auth": null
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": 1,
+    "regdate": 1538355838000,
+    "group": {
+      "idx": 289,
+      "name": "인턴"
+    },
+    "policy": [{
+      "idx": 587,
+      "name": "중식",
+      "amount": 0,
+      "type": "DAY"
+    }, {
+      "idx": 606,
+      "name": "야근식대",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "BC7E0F3C-85B5-15C2-B845-244D6CCD5BF2",
+    "signid": "hohee3007",
+    "name": "hohee3007",
+    "orgCode": "A98859E6-84CB-46FD-92BF-507CE3697425",
+    "email": {
+      "value": null,
+      "auth": null
+    },
+    "phone": {
+      "value": "",
+      "auth": null
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": 1,
+    "regdate": 1538355838000,
+    "group": {
+      "idx": 289,
+      "name": "인턴"
+    },
+    "policy": [{
+      "idx": 587,
+      "name": "중식",
+      "amount": 0,
+      "type": "DAY"
+    }, {
+      "idx": 606,
+      "name": "야근식대",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "0CEEE4E1-E428-1DCA-E16E-A28144D6DCC0",
+    "signid": "hohee3008",
+    "name": "hohee3008",
+    "orgCode": "A98859E6-84CB-46FD-92BF-507CE3697425",
+    "email": {
+      "value": null,
+      "auth": null
+    },
+    "phone": {
+      "value": "",
+      "auth": null
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": 1,
+    "regdate": 1538355838000,
+    "group": {
+      "idx": 289,
+      "name": "인턴"
+    },
+    "policy": [{
+      "idx": 587,
+      "name": "중식",
+      "amount": 0,
+      "type": "DAY"
+    }, {
+      "idx": 606,
+      "name": "야근식대",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "631C4C20-E661-6AE3-AA9F-4BF988C68873",
+    "signid": "hohee3009",
+    "name": "hohee3009",
+    "orgCode": "A98859E6-84CB-46FD-92BF-507CE3697425",
+    "email": {
+      "value": null,
+      "auth": null
+    },
+    "phone": {
+      "value": "",
+      "auth": null
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": 1,
+    "regdate": 1538355838000,
+    "group": {
+      "idx": 289,
+      "name": "인턴"
+    },
+    "policy": [{
+      "idx": 587,
+      "name": "중식",
+      "amount": 0,
+      "type": "DAY"
+    }, {
+      "idx": 606,
+      "name": "야근식대",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "CB8BD442-4DE5-F63E-FCE2-7767DB7748B9",
+    "signid": "hohee3010",
+    "name": "hohee3010",
+    "orgCode": "A98859E6-84CB-46FD-92BF-507CE3697425",
+    "email": {
+      "value": null,
+      "auth": null
+    },
+    "phone": {
+      "value": "",
+      "auth": null
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": 1,
+    "regdate": 1538355838000,
+    "group": {
+      "idx": 289,
+      "name": "인턴"
+    },
+    "policy": [{
+      "idx": 587,
+      "name": "중식",
+      "amount": 0,
+      "type": "DAY"
+    }, {
+      "idx": 606,
+      "name": "야근식대",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "8F20D0AC-6C28-334A-8F22-3D5EB0C76300",
+    "signid": "hohee3011",
+    "name": "hohee3011",
+    "orgCode": "A98859E6-84CB-46FD-92BF-507CE3697425",
+    "email": {
+      "value": null,
+      "auth": null
+    },
+    "phone": {
+      "value": "",
+      "auth": null
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": 1,
+    "regdate": 1538355838000,
+    "group": {
+      "idx": 289,
+      "name": "인턴"
+    },
+    "policy": [{
+      "idx": 587,
+      "name": "중식",
+      "amount": 0,
+      "type": "DAY"
+    }, {
+      "idx": 606,
+      "name": "야근식대",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "52A7BDD8-7B7B-407C-A798-430040ADD598",
+    "signid": "hohee3012",
+    "name": "hohee3012",
+    "orgCode": "A98859E6-84CB-46FD-92BF-507CE3697425",
+    "email": {
+      "value": null,
+      "auth": null
+    },
+    "phone": {
+      "value": "",
+      "auth": null
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": 1,
+    "regdate": 1538355838000,
+    "group": {
+      "idx": 289,
+      "name": "인턴"
+    },
+    "policy": [{
+      "idx": 587,
+      "name": "중식",
+      "amount": 0,
+      "type": "DAY"
+    }, {
+      "idx": 606,
+      "name": "야근식대",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "915F714A-9569-B442-EE5E-27DA311C6DCE",
+    "signid": "hohee3013",
+    "name": "hohee3013",
+    "orgCode": "A98859E6-84CB-46FD-92BF-507CE3697425",
+    "email": {
+      "value": null,
+      "auth": null
+    },
+    "phone": {
+      "value": "",
+      "auth": null
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": 1,
+    "regdate": 1538355838000,
+    "group": {
+      "idx": 289,
+      "name": "인턴"
+    },
+    "policy": [{
+      "idx": 587,
+      "name": "중식",
+      "amount": 0,
+      "type": "DAY"
+    }, {
+      "idx": 606,
+      "name": "야근식대",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "72BF5FFE-9619-4DDB-1B88-3493F857C180",
+    "signid": "hohee3014",
+    "name": "hohee3014",
+    "orgCode": "A98859E6-84CB-46FD-92BF-507CE3697425",
+    "email": {
+      "value": null,
+      "auth": null
+    },
+    "phone": {
+      "value": "",
+      "auth": null
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": 1,
+    "regdate": 1538355838000,
+    "group": {
+      "idx": 289,
+      "name": "인턴"
+    },
+    "policy": [{
+      "idx": 587,
+      "name": "중식",
+      "amount": 0,
+      "type": "DAY"
+    }, {
+      "idx": 606,
+      "name": "야근식대",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "41256212-4BC3-8AAE-D123-1F447119B8E4",
+    "signid": "hohee3015",
+    "name": "hohee3015",
+    "orgCode": "A98859E6-84CB-46FD-92BF-507CE3697425",
+    "email": {
+      "value": null,
+      "auth": null
+    },
+    "phone": {
+      "value": "",
+      "auth": null
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": 1,
+    "regdate": 1538355838000,
+    "group": {
+      "idx": 289,
+      "name": "인턴"
+    },
+    "policy": [{
+      "idx": 587,
+      "name": "중식",
+      "amount": 0,
+      "type": "DAY"
+    }, {
+      "idx": 606,
+      "name": "야근식대",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "F5C0EF27-2DE9-DA9A-2FBC-8A2991960DF4",
+    "signid": "hohee3016",
+    "name": "hohee3016",
+    "orgCode": "A98859E6-84CB-46FD-92BF-507CE3697425",
+    "email": {
+      "value": null,
+      "auth": null
+    },
+    "phone": {
+      "value": "",
+      "auth": null
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": 1,
+    "regdate": 1538355838000,
+    "group": {
+      "idx": 289,
+      "name": "인턴"
+    },
+    "policy": [{
+      "idx": 587,
+      "name": "중식",
+      "amount": 0,
+      "type": "DAY"
+    }, {
+      "idx": 606,
+      "name": "야근식대",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "E405EEBF-32B6-D83C-B61F-481E868CE200",
+    "signid": "hohee3017",
+    "name": "hohee3017",
+    "orgCode": "A98859E6-84CB-46FD-92BF-507CE3697425",
+    "email": {
+      "value": null,
+      "auth": null
+    },
+    "phone": {
+      "value": "",
+      "auth": null
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": 1,
+    "regdate": 1538355838000,
+    "group": {
+      "idx": 289,
+      "name": "인턴"
+    },
+    "policy": [{
+      "idx": 587,
+      "name": "중식",
+      "amount": 0,
+      "type": "DAY"
+    }, {
+      "idx": 606,
+      "name": "야근식대",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "C5F270BA-2536-1532-937A-7616880D9F8B",
+    "signid": "hohee3018",
+    "name": "hohee3018",
+    "orgCode": "A98859E6-84CB-46FD-92BF-507CE3697425",
+    "email": {
+      "value": null,
+      "auth": null
+    },
+    "phone": {
+      "value": "",
+      "auth": null
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": 1,
+    "regdate": 1538355838000,
+    "group": {
+      "idx": 289,
+      "name": "인턴"
+    },
+    "policy": [{
+      "idx": 587,
+      "name": "중식",
+      "amount": 0,
+      "type": "DAY"
+    }, {
+      "idx": 606,
+      "name": "야근식대",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "E5658E95-DDC4-B777-158F-8A46C96D629D",
+    "signid": "hohee3019",
+    "name": "hohee3019",
+    "orgCode": "A98859E6-84CB-46FD-92BF-507CE3697425",
+    "email": {
+      "value": null,
+      "auth": null
+    },
+    "phone": {
+      "value": "",
+      "auth": null
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": 1,
+    "regdate": 1538355838000,
+    "group": {
+      "idx": 289,
+      "name": "인턴"
+    },
+    "policy": [{
+      "idx": 587,
+      "name": "중식",
+      "amount": 0,
+      "type": "DAY"
+    }, {
+      "idx": 606,
+      "name": "야근식대",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "1F08CADF-64F3-5813-BB94-0A1F42EB3B8D",
+    "signid": "hohee3021",
+    "name": "hohee3021",
+    "orgCode": "A98859E6-84CB-46FD-92BF-507CE3697425",
+    "email": {
+      "value": null,
+      "auth": null
+    },
+    "phone": {
+      "value": "",
+      "auth": null
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": 1,
+    "regdate": 1538355838000,
+    "group": {
+      "idx": 289,
+      "name": "인턴"
+    },
+    "policy": [{
+      "idx": 587,
+      "name": "중식",
+      "amount": 0,
+      "type": "DAY"
+    }, {
+      "idx": 606,
+      "name": "야근식대",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "384B4E03-0C70-ACA9-FF8A-6CB62D62D538",
+    "signid": "hohee3022",
+    "name": "hohee3022",
+    "orgCode": "A98859E6-84CB-46FD-92BF-507CE3697425",
+    "email": {
+      "value": null,
+      "auth": null
+    },
+    "phone": {
+      "value": "",
+      "auth": null
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": 1,
+    "regdate": 1538355838000,
+    "group": {
+      "idx": 289,
+      "name": "인턴"
+    },
+    "policy": [{
+      "idx": 587,
+      "name": "중식",
+      "amount": 0,
+      "type": "DAY"
+    }, {
+      "idx": 606,
+      "name": "야근식대",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "A8044140-B6AC-EA34-0A4A-CF45A4F06682",
+    "signid": "hohee3023",
+    "name": "hohee3023",
+    "orgCode": "A98859E6-84CB-46FD-92BF-507CE3697425",
+    "email": {
+      "value": null,
+      "auth": null
+    },
+    "phone": {
+      "value": "",
+      "auth": null
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": 1,
+    "regdate": 1538355838000,
+    "group": {
+      "idx": 289,
+      "name": "인턴"
+    },
+    "policy": [{
+      "idx": 587,
+      "name": "중식",
+      "amount": 0,
+      "type": "DAY"
+    }, {
+      "idx": 606,
+      "name": "야근식대",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "163A7E74-F83E-9BAF-6711-171BA04BF328",
+    "signid": "hohee3026",
+    "name": "hohee3026",
+    "orgCode": "A98859E6-84CB-46FD-92BF-507CE3697425",
+    "email": {
+      "value": null,
+      "auth": null
+    },
+    "phone": {
+      "value": "",
+      "auth": null
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": -1,
+    "regdate": 1538355838000,
+    "group": {
+      "idx": 289,
+      "name": "인턴"
+    },
+    "policy": [{
+      "idx": 587,
+      "name": "중식",
+      "amount": 0,
+      "type": "DAY"
+    }, {
+      "idx": 606,
+      "name": "야근식대",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "77F28AFC-B4ED-A4A8-56E6-0B5E28A986FA",
+    "signid": "qqq333",
+    "name": "삼결재",
+    "orgCode": "7CD70B06-684B-44EE-A3E1-9CD2CF06D078",
+    "email": {
+      "value": null,
+      "auth": null
+    },
+    "phone": {
+      "value": "",
+      "auth": null
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": -1,
+    "regdate": 1534121200000,
+    "group": {
+      "idx": 294,
+      "name": "팀장그룹"
+    },
+    "policy": [{
+      "idx": 597,
+      "name": "중식",
+      "amount": 37000,
+      "type": "LONGTERM"
+    }, {
+      "idx": 840,
+      "name": "무제한 테스트 1",
+      "amount": 0,
+      "type": "INFINITE"
+    }, {
+      "idx": 1204,
+      "name": "팀장 결재라인 신청",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1205,
+      "name": "주말석식",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1852,
+      "name": "무제한 테스트 2",
+      "amount": 0,
+      "type": "INFINITE"
+    }, {
+      "idx": 1857,
+      "name": "장기 테스트",
+      "amount": 0,
+      "type": "LONGTERM"
+    }]
+  }, {
+    "id": "5D4042A9-F2AE-6561-514B-7B70E2B1D1F0",
+    "signid": "qqq222",
+    "name": "이결재",
+    "orgCode": "7CD70B06-684B-44EE-A3E1-9CD2CF06D078",
+    "email": {
+      "value": null,
+      "auth": null
+    },
+    "phone": {
+      "value": "",
+      "auth": null
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": 30,
+    "regdate": 1534121200000,
+    "group": {
+      "idx": 3,
+      "name": "무제한그룹"
+    },
+    "policy": [{
+      "idx": 87,
+      "name": "중식",
+      "amount": 350000,
+      "type": "LONGTERM"
+    }, {
+      "idx": 259,
+      "name": "석식",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1202,
+      "name": "결재라인 신청",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1203,
+      "name": "주말석식",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }, {
+    "id": "9942A134-848B-A9D0-C1AB-EEE4D7734B04",
+    "signid": "qqq111",
+    "name": "일결재",
+    "orgCode": "3375DF88-CF84-4620-8BA4-2B59F80ED8D5",
+    "email": {
+      "value": null,
+      "auth": null
+    },
+    "phone": {
+      "value": "",
+      "auth": null
+    },
+    "rankposition": "",
+    "position": "",
+    "comidnum": "",
+    "level": 30,
+    "regdate": 1534121200000,
+    "group": {
+      "idx": 2,
+      "name": "간식그룹"
+    },
+    "policy": [{
+      "idx": 82,
+      "name": "장기 A",
+      "amount": 150002,
+      "type": "LONGTERM"
+    }, {
+      "idx": 258,
+      "name": "신청 수동",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1171,
+      "name": "신청 결재라인",
+      "amount": 0,
+      "type": "DEMAND"
+    }, {
+      "idx": 1200,
+      "name": "신청 자동",
+      "amount": 0,
+      "type": "DEMAND"
+    }]
+  }]
+}

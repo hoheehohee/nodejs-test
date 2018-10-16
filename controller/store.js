@@ -1,6 +1,6 @@
 const async = require('async');
 const pool = require('../lib/db');
-const slack = require('../services/SlackBots');
+const slack = require('../util/SlackBots');
 
 exports.storeSel = (req, res, next) => {
   pool.getConnection((err, conn) => {

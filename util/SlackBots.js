@@ -1,8 +1,6 @@
-const express = require('express');
-const async = require('async');
 const { RTMClient, WebClient } = require('@slack/client');
+const IOSPush = require('./IOS_push');
 const store = require('../controller/store');
-// const router = express.Router();
 const token = 'xoxb-4769004049-437470645846-Frj0cBRphfPItsfWDANoQl4T';
 const rtm = new RTMClient(token);
 const web = new WebClient(token);
@@ -16,12 +14,12 @@ exports.message = (data) => {
     console.log('##### null data: ')
     return;
   }else {
-    const message = `
-      식당: ${data.storename},
-      장소: ${data.address},
-      추천 메뉴: ${data.menuname},
-      가격: ${data.price}
-    `;
+    const message = 
+    '식당: ' + data.storename + '\n'
+      + '장소: ' + data.address + '\n'
+      + '추천 메뉴: ' + data.menuname + '\n'
+      + '가격: ' + data.price + '원';
+    IOSPush.push(message);
     rtm.sendMessage(message, conversationId)
     .then((res) => {
       console.log('Message sent: ', res.ts);
@@ -31,7 +29,6 @@ exports.message = (data) => {
     });
   }
 }
-
 
 // Log all incoming messages
 rtm.on('message', (event) => {

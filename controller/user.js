@@ -1,5 +1,6 @@
 const async = require('async');
 const pool = require('../lib/db');
+const accepters = require('../util/AccepterUser');
 
 exports.userSel = (req, res, next) => {
   pool.getConnection((err, conn) => {
@@ -32,6 +33,25 @@ exports.userSel = (req, res, next) => {
     }
   });
 };
+
+exports.acceptersUser = (req, res, next) => {
+  try {
+    async.waterfall([
+      (callback) => {
+        const aUser = require('../util/JSON/accepterUser.json');
+        const map = accepters.user(aUser);
+        res.send({
+          code: '0000',
+          map: map.get('E554E99F-F65C-3C92-D08C-BD251A01CE8B')
+        });
+      }
+    ], (err, result) => {
+      console.log('##### async.waterfall error: ', err)
+    })
+  } catch (error) {
+    console.log('##### error: ', error)
+  }
+}
 
 exports.userMod = (req, res, next) => {
   res.send('post test');
