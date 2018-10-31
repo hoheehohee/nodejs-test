@@ -2,6 +2,7 @@ const express = require('express');
 const user = require('../controller/user');
 const store = require('../controller/store');
 const email = require('../controller/email')
+const logServer = require('../controller/logServer')
 const router = express.Router();
 
 router.route('/user')
@@ -15,5 +16,8 @@ router.route('/store')
 
 router.route('/email')
   .post(email.send)
+
+router.route('/logServer')
+  .post(logServer.loginput)
 
 module.exports = router
