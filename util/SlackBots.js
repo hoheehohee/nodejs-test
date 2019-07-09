@@ -1,7 +1,7 @@
 const { RTMClient, WebClient } = require('@slack/client');
 const IOSPush = require('./IOS_push');
 const store = require('../controller/store');
-const token = 'xoxb-4769004049-437470645846-Frj0cBRphfPItsfWDANoQl4T';
+const token = '';
 const rtm = new RTMClient(token);
 const web = new WebClient(token);
 rtm.start();
